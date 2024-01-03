@@ -1,0 +1,85 @@
+/* animation icon */
+.ms-2 a{
+    display: inline-block;
+    color: black;
+    margin-right: 10px;
+    font-size: 15px;
+    transform: scale(1);
+    padding-bottom: 20px;
+}
+
+.ms-2 a:hover{
+    transform: scale(2);
+    transition: .4s;
+    color: #0d6efd;
+}
+/* ---------------------------------- */
+
+/*Let's talk link animation */
+
+.link-animation {
+  position: relative;
+  display: inline-block;
+  /* color: inherit; */
+  text-decoration: none;
+}
+
+.link-animation::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  top: 19px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+  transform-origin: 0% 50%;
+}
+
+.link-animation:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+/* ---------------------------------- */
+
+/* navbar */
+
+#navbar{
+  position : sticky;
+  width: 100%;
+  padding: 30px;
+  top: 0;
+  background-color: white; 
+  z-index: 1000; 
+}
+#navbar a:hover {
+  border-bottom: 2px solid #000; /* Adjust the color and thickness as needed */
+} 
+/* ---------------------------------- */
+
+/* card effect */
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card:hover  {
+  display: flex;
+}
+/* ---------------------------------- */
