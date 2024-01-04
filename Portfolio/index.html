@@ -16,7 +16,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Donrit</title>
-    <link rel="icon" href="/img/activity/icon.png" type="image/png" />
+    <link rel="icon" href="/img/profile-all/icon.png" type="image/png" />
 
 
 </head>
@@ -59,34 +59,36 @@
   </div>
   <!-- END Navber -->
 
-  <!-- <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example p-3 rounded-2" tabindex="0"> -->
+<!-- scrollspy -->
+  <div data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example p-3 rounded-2" tabindex="0">
 
 
 <!-- Aboutme -->
-    <div class="container col-xxl-8 px-4 py-5" id="scrollspyHeading1">
+    <div class="container col-xxl-8" id="scrollspyHeading1">
       <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
         <div class="col-10 col-sm-8 col-lg-6">
-          <img src="/img/activity/32.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="300" loading="lazy">
+          <img src="img/profile-all/profile.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="300" loading="lazy">
         </div>
         <div class="col-lg-6">
           <h1 class="display-2 fw-bold text-body-emphasis lh-1 mb-3">Hey I'd like to introduce myself.</h1>
             <p class="lead">I student at RMUTT, I may have a little work experience but  I will always try to find a solution to the problems I encounter myself first. I am ready 
               to learn new things and receive advice to improve myself.</p>
           <div class="d-grid gap-2 d-md-flex justify-content-md-start ">
-            <a href="/img/resume.pdf" download="resumeme.pdf" target='_blank' class="btn btn-primary btn-lg px-4 me-md-2">Resume</a>
+            <a href="/img/resume.pdf" target='_blank' class="btn btn-primary btn-lg px-4 me-md-2">Resume</a>
             <button type="button" class="btn btn-outline-secondary btn-lg px-4"><a href="#scrollspyHeading2" class="nav-link  px-2">Read more</a></button>
           </div>
         </div>
       </div>
     </div>
-
+    <!-- download="resumeme.pdf" -->
 
 <!-- icon-grid -->
-  <div class="container px-4 py-5" id="scrollspyHeading2">
-      <h2 class="pb-2 border-bottom lh-1 display-4 fst-italic text-bg-dark rounded-5 p-3 text-center">Technical Skill</h2>
+  <div class="container px-4" id="scrollspyHeading2">
+    <div class="py-md-5">
+      <h2 class="pb-2 border-bottom lh-1 display-4 fst-italic text-bg-dark rounded-5 p-3 text-center ">Technical Skill</h2>
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-5 py-5">
             <div class="col d-flex align-items-start">
-              <a href="#"><i class="fa-brands fa-node-js fa-3x me-3"></i></a>
+              <a href="#"><i class="fa-brands fa-node-js fa-3x me-3 "></i></a>
               <div>
                 <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Node.js</h3>
                 <!-- <p>Paragraph of text beneath the heading to explain the heading.</p> -->
@@ -124,6 +126,7 @@
                 <!-- <p>Paragraph of text beneath the heading to explain the heading.</p> -->
               </div>
         </div>
+      </div>
     </div>
   </div>
 
@@ -157,7 +160,7 @@
             <div class="d-flex flex-column flex-md-row p-4 gap-4 py-md-5 align-items-center justify-content-center">
               <div class="list-group">
                 <div class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
-                  <img src="/img/activity/32.jpg" alt="twbs" width="50" height="50" class="rounded-circle flex-shrink-0">
+                  <img src="/img/profile-all/profile-s2.jpg" alt="twbs" width="50" height="50" class="rounded-circle flex-shrink-0">
                   <div class="d-flex gap-2 w-100 justify-content-between">
                     <div>
                       <h6 class="mb-0 fs-4 fw-bold ">Tools I used</h6>
@@ -168,14 +171,11 @@
                 </div>
 
                   <div class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
-                    <img src="/img/activity/32.jpg" alt="twbs" width="50" height="50" class="rounded-circle flex-shrink-0">
+                    <img src="/img/activity/profile-s2.jpg" alt="twbs" width="50" height="50" class="rounded-circle flex-shrink-0">
                     <div class="d-flex gap-2 w-100 justify-content-between">
                       <div>
                         <h6 class="mb-0 fs-4 fw-bold">I may this soft skill</h6>
-                        <p class="mb-0 opacity-75 fs-5">Teamwork,
-                          Adaptability,
-                          Time Management,
-                          Communication</p>
+                        <p class="mb-0 opacity-75 fs-5">Teamwork, Adaptability, Time Management, Communication</p>
                       </div>
                       <small class="opacity-50 text-nowrap">1h</small>
                     </div>
@@ -217,7 +217,7 @@
 
 
 <!-- picture slide -->
-    <div class="container col-lg-5">
+    <div class="container col-lg-5 mb-5">
       <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
         <div class="carousel-inner">
           <div class="carousel-item active" onclick="showtext('เข้าร่วมเสวนาวิชาการ Art and Science behind the Scenes')" style="cursor: pointer;">
@@ -252,31 +252,33 @@
 
 
 <!-- Projects -->
-  <div class="container align-items-start mx-lg-auto" id="scrollspyHeading3">
+  <div class="container align-items-start " id="scrollspyHeading3">
     <h2 class="pb-2 border-bottom lh-1 display-4 fst-italic text-bg-dark rounded-5 p-3 text-center">Projects</h2>
-    <div class="d-flex justify-content-center align-items-center py-5">
-      <div class="card text-bg-dark rounded-4 shadow-lg" style="width: 100%;">
-        <a href="https://github.com/Rooniaz/Clothing-Nicedream" target='_blank' class="text-decoration-none  text-white"> 
-        <img src="/img/project-nicedream/main.png" class="card-img-top" alt="Project Image" style="height: 60%;">
-        <div class="card-body">
-          <h5 class="card-title display-6 fw-bold">Web Clothing <span class="text-primary">NICE DRAEM</span></h5>
-          <p class="card-text text-secondary fs-5">เป็นเว็บขายเสื้อผ้าที่มีทั้งการ login แยก admin กับ customer การเพิ่มลดสินค้าใน stock หรือสินค้าเพิ่มมาใหม่ อีกทั้งยังมีระบบรับ SlipPayment และปริ้น recept </p>
-          <div class="mt-3">
-            <strong class="">Written in:</strong>
-            <span class="badge bg-primary lead">JavaScript</span>
-            <span class="badge bg-success">node.js</span>
-            <span class="badge bg-danger">SQL</span>
-          </div>
-        </a>
+      <div class="d-flex justify-content-center align-items-center py-5">
+        <div class="card text-bg-dark rounded-4 shadow-lg" style="width: 80%;">
+          <a href="https://github.com/Rooniaz/Clothing-Nicedream" target='_blank' class="text-decoration-none  text-white"> 
+            <img src="/img/project-nicedream/main.png" class="card-img-top" alt="Project Image" style="height: 60%;">
+              <div class="card-body">
+                  <h5 class="card-title display-6 fw-bold">Web Clothing <span class="text-primary">NICE DRAEM</span></h5>
+                  <p class="card-text text-secondary fs-5">เป็นเว็บขายเสื้อผ้าที่มีทั้งการ login แยก admin กับ customer การเพิ่มลดสินค้าใน stock หรือสินค้าเพิ่มมาใหม่ อีกทั้งยังมีระบบรับ SlipPayment และปริ้น recept </p>
+                  <div class="mt-3">
+                    <strong class="">Written in:</strong>
+                    <span class="badge bg-primary lead">JavaScript</span>
+                    <span class="badge bg-success">ejs</span>
+                    <span class="badge bg-danger">SQL</span>
+                  </div>
+              </div>
+          </a>
         </div>
       </div>
-    </div>
   </div>
+
+
 <!--END Projects -->
   
 
 <!-- Finally -->
-    <div class="bg-dark text-secondary px-4 py-5 text-center " >
+    <div class="bg-dark text-secondary px-4 py-5 text-center">
       <div class="py-5">
         <h1 class="display-5 fw-bold text-white">Finally</h1>
         <div class="col-lg-6 mx-auto">
